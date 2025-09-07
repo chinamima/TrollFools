@@ -111,8 +111,8 @@ struct InjectView: View {
         var logFileURL: URL?
 
         do {
-            DDLogError("========= inject app.url:\(app.url)", ddlog: InjectorV3.main.logger)
-            DDLogError("========= inject urlList:\(urlList)", ddlog: InjectorV3.main.logger)
+            DDLogError("========= gjj inject app.url:\(app.url)", ddlog: InjectorV3.main.logger)
+            DDLogError("========= gjj inject urlList:\(urlList)", ddlog: InjectorV3.main.logger)
             let injector = try InjectorV3(app.url)
             logFileURL = injector.latestLogFileURL
 
